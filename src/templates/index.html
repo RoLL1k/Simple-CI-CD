@@ -1,10 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Burger Menu</title>
 </head>
 <body>
-    <p>{{ message }}</p>
+<header class="header">
+    <div class="container header__container">
+        <div class="menu-burger__header close-menu">
+            <span></span>
+        </div>
+        <nav class="header__nav">
+            <ul class="menu header__menu">
+                <li><a href="" class="menu__item">Главная</a></li>
+                <li><a href="" class="menu__item">Товары</a></li>
+                <li><a href="" class="menu__item">Акции</a></li>
+                <li><a href="" class="menu__item">Новинки</a></li>
+                <li><a href="" class="menu__item">Доставка</a></li>
+                <li><a href="" class="menu__item">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="content-wrapper">
+    <div class="container content-wrapper__container">
+        <h1>{{ message }}</h1><br>
+        <p>
+            Ну тут текст какой-то :)
+        </p>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="static/index.js"></script>
 </body>
 </html>
